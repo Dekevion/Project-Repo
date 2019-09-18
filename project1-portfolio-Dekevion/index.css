@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+*{
+    border: 1px solid black;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    text-align: center;
+    height: 100%;
+    background-color: #2357;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+#Title{
+    height: 30%;
+    background-color: #535353;
+
+}
+#hed1{
+    background-color: #535353;
+    height: 30%;
+}
+#pic{
+    grid-row: 2;
+    grid-column: 1;
+
+}
+#content{
+    display: grid;
+    grid-row: 2/4;
+    border-style: groove;
+    /*width: 100%;*/
+    margin: 40px;
+
+}
+/*img{*/
+/*    border-radius: 50%;*/
+/*    width: 50%;*/
+/*    margin: 30px;*/
+/*}*/
+#foot{
+    grid-column: 1/3;
+    /*max-height: 28%;*/
+    /*-webkit-text-emphasis-style: double-circle;*/
+    /*background-color: #535353;*/
+}
+
+#aboutMe{
+    height: auto;
+    width: auto;
+    margin: 30px;
+}
+p{
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+#Frameworks{
+    grid-column: 1;
+    /*display: inline-block*/
+    border: 3px solid black;
+}
+
+
+#Projects{
+    grid-column: 1;
+    /*display: inline-block*/
+    border: 1px solid black;
+}
+
+#Education {
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+#Resume{
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+#Reflections{
+    grid-column: 1;
+}
+
+#Contact{
+    grid-column: 1;
+}
+
+a{
+    grid-column: 2;
+}
+
+#section{
+    grid-column:2;
+}
+
+#project{
+    width: 20%;
+    margin: 1%;
+    grid-column: 2;
+}
+
+/*.htmlPic{*/
+/*    display:inline-block;*/
+/*}*/
+
+#profile{
+    border-radius: 50%;
+    width: 50%;
+    margin: 30px
+}
+
