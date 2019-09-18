@@ -1,0 +1,13 @@
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+#table{
+    width: 80%;
+    height: 250px;
+    border-collapse: collapse;
+    margin: auto;
+    background: url("forest-background.jpg");
+}
